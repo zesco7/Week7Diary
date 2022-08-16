@@ -13,21 +13,26 @@
 		987E84AD28AB1FD4000A1C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987E84AB28AB1FD4000A1C22 /* Main.storyboard */; };
 		987E84AF28AB1FD7000A1C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987E84AE28AB1FD7000A1C22 /* Assets.xcassets */; };
 		987E84B228AB1FD7000A1C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987E84B028AB1FD7000A1C22 /* LaunchScreen.storyboard */; };
-		987E84D628AB20E7000A1C22 /* UIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987E84D228AB2069000A1C22 /* UIFramework.framework */; };
-		987E84D728AB20E7000A1C22 /* UIFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 987E84D228AB2069000A1C22 /* UIFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		987E84F128AB2C79000A1C22 /* UIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987E84EE28AB2C5B000A1C22 /* UIFramework.framework */; };
+		987E84F228AB2C79000A1C22 /* UIFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 987E84EE28AB2C5B000A1C22 /* UIFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		987E84F528AB3A7B000A1C22 /* WalkThrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987E84F428AB3A7B000A1C22 /* WalkThrough.storyboard */; };
+		987E84F728AB3AB5000A1C22 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84F628AB3AB5000A1C22 /* FirstViewController.swift */; };
+		987E84F928AB40C9000A1C22 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84F828AB40C9000A1C22 /* SecondViewController.swift */; };
+		987E84FB28AB40DD000A1C22 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84FA28AB40DD000A1C22 /* ThirdViewController.swift */; };
+		987E84FF28AB415E000A1C22 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		987E84D128AB2069000A1C22 /* PBXContainerItemProxy */ = {
+		987E84ED28AB2C5B000A1C22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 987E84CC28AB2069000A1C22 /* UIFramework.xcodeproj */;
+			containerPortal = 987E84E828AB2C5B000A1C22 /* UIFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 987E847B28AB1BC4000A1C22;
 			remoteInfo = UIFramework;
 		};
-		987E84D328AB2069000A1C22 /* PBXContainerItemProxy */ = {
+		987E84EF28AB2C5B000A1C22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 987E84CC28AB2069000A1C22 /* UIFramework.xcodeproj */;
+			containerPortal = 987E84E828AB2C5B000A1C22 /* UIFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 987E848528AB1BC5000A1C22;
 			remoteInfo = UIFrameworkTests;
@@ -41,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				987E84D728AB20E7000A1C22 /* UIFramework.framework in Embed Frameworks */,
+				987E84F228AB2C79000A1C22 /* UIFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +62,12 @@
 		987E84AE28AB1FD7000A1C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		987E84B128AB1FD7000A1C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		987E84B328AB1FD7000A1C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		987E84CC28AB2069000A1C22 /* UIFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIFramework.xcodeproj; path = UIFramework/UIFramework.xcodeproj; sourceTree = "<group>"; };
+		987E84E828AB2C5B000A1C22 /* UIFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIFramework.xcodeproj; path = UIFramework/UIFramework.xcodeproj; sourceTree = "<group>"; };
+		987E84F428AB3A7B000A1C22 /* WalkThrough.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WalkThrough.storyboard; sourceTree = "<group>"; };
+		987E84F628AB3AB5000A1C22 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		987E84F828AB40C9000A1C22 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		987E84FA28AB40DD000A1C22 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987E84D628AB20E7000A1C22 /* UIFramework.framework in Frameworks */,
+				987E84F128AB2C79000A1C22 /* UIFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +85,7 @@
 		987E849928AB1FD4000A1C22 = {
 			isa = PBXGroup;
 			children = (
-				987E84CC28AB2069000A1C22 /* UIFramework.xcodeproj */,
+				987E84E828AB2C5B000A1C22 /* UIFramework.xcodeproj */,
 				987E84A428AB1FD4000A1C22 /* Week7Diary */,
 				987E84A328AB1FD4000A1C22 /* Products */,
 				987E84D528AB20E7000A1C22 /* Frameworks */,
@@ -93,6 +103,7 @@
 		987E84A428AB1FD4000A1C22 /* Week7Diary */ = {
 			isa = PBXGroup;
 			children = (
+				987E84F328AB3A42000A1C22 /* WalkThrough */,
 				987E84A528AB1FD4000A1C22 /* AppDelegate.swift */,
 				987E84A728AB1FD4000A1C22 /* SceneDelegate.swift */,
 				987E84A928AB1FD4000A1C22 /* ViewController.swift */,
@@ -104,20 +115,32 @@
 			path = Week7Diary;
 			sourceTree = "<group>";
 		};
-		987E84CD28AB2069000A1C22 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				987E84D228AB2069000A1C22 /* UIFramework.framework */,
-				987E84D428AB2069000A1C22 /* UIFrameworkTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		987E84D528AB20E7000A1C22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		987E84E928AB2C5B000A1C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987E84EE28AB2C5B000A1C22 /* UIFramework.framework */,
+				987E84F028AB2C5B000A1C22 /* UIFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987E84F328AB3A42000A1C22 /* WalkThrough */ = {
+			isa = PBXGroup;
+			children = (
+				987E84F428AB3A7B000A1C22 /* WalkThrough.storyboard */,
+				987E84F628AB3AB5000A1C22 /* FirstViewController.swift */,
+				987E84F828AB40C9000A1C22 /* SecondViewController.swift */,
+				987E84FA28AB40DD000A1C22 /* ThirdViewController.swift */,
+				987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */,
+			);
+			path = WalkThrough;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +192,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 987E84CD28AB2069000A1C22 /* Products */;
-					ProjectRef = 987E84CC28AB2069000A1C22 /* UIFramework.xcodeproj */;
+					ProductGroup = 987E84E928AB2C5B000A1C22 /* Products */;
+					ProjectRef = 987E84E828AB2C5B000A1C22 /* UIFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -181,18 +204,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		987E84D228AB2069000A1C22 /* UIFramework.framework */ = {
+		987E84EE28AB2C5B000A1C22 /* UIFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = UIFramework.framework;
-			remoteRef = 987E84D128AB2069000A1C22 /* PBXContainerItemProxy */;
+			remoteRef = 987E84ED28AB2C5B000A1C22 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		987E84D428AB2069000A1C22 /* UIFrameworkTests.xctest */ = {
+		987E84F028AB2C5B000A1C22 /* UIFrameworkTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = UIFrameworkTests.xctest;
-			remoteRef = 987E84D328AB2069000A1C22 /* PBXContainerItemProxy */;
+			remoteRef = 987E84EF28AB2C5B000A1C22 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -203,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				987E84B228AB1FD7000A1C22 /* LaunchScreen.storyboard in Resources */,
+				987E84F528AB3A7B000A1C22 /* WalkThrough.storyboard in Resources */,
 				987E84AF28AB1FD7000A1C22 /* Assets.xcassets in Resources */,
 				987E84AD28AB1FD4000A1C22 /* Main.storyboard in Resources */,
 			);
@@ -218,6 +242,10 @@
 				987E84AA28AB1FD4000A1C22 /* ViewController.swift in Sources */,
 				987E84A628AB1FD4000A1C22 /* AppDelegate.swift in Sources */,
 				987E84A828AB1FD4000A1C22 /* SceneDelegate.swift in Sources */,
+				987E84F928AB40C9000A1C22 /* SecondViewController.swift in Sources */,
+				987E84FB28AB40DD000A1C22 /* ThirdViewController.swift in Sources */,
+				987E84FF28AB415E000A1C22 /* WalkThroughViewController.swift in Sources */,
+				987E84F728AB3AB5000A1C22 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
