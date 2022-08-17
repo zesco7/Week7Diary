@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        let vc = CodeViewController()
+        present(vc, animated: true)
+        
+        
         testOpen()
         //        showAlert(title: "테스트 얼럿", message: "테스트 메시지", buttonTitle: "변경") { _ in
         //            self.view.backgroundColor = .lightGray
