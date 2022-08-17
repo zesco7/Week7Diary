@@ -9,6 +9,7 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
+    
     @IBOutlet weak var tutorialLabel: UILabel!
     @IBOutlet weak var blackView: UIView!
     @IBOutlet weak var starImageView: UIImageView!

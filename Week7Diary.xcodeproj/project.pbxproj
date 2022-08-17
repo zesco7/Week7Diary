@@ -24,6 +24,7 @@
 		987E84F928AB40C9000A1C22 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84F828AB40C9000A1C22 /* SecondViewController.swift */; };
 		987E84FB28AB40DD000A1C22 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84FA28AB40DD000A1C22 /* ThirdViewController.swift */; };
 		987E84FF28AB415E000A1C22 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */; };
+		98BA1E9628AD34D5005AEC19 /* SnapKitPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA1E9528AD34D5005AEC19 /* SnapKitPracticeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		987E84F828AB40C9000A1C22 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		987E84FA28AB40DD000A1C22 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
+		98BA1E9528AD34D5005AEC19 /* SnapKitPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitPracticeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				9879FBBA28AC71C800AAB273 /* CodeViewController.swift */,
 				9879FBC328AC823000AAB273 /* CodeSnapViewController.swift */,
 				9879FBC528AC8C1A00AAB273 /* CodeSnap2ViewController.swift */,
+				98BA1E9528AD34D5005AEC19 /* SnapKitPracticeViewController.swift */,
 			);
 			path = CodeBase;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				987E84A828AB1FD4000A1C22 /* SceneDelegate.swift in Sources */,
 				987E84F928AB40C9000A1C22 /* SecondViewController.swift in Sources */,
 				9879FBC428AC823000AAB273 /* CodeSnapViewController.swift in Sources */,
+				98BA1E9628AD34D5005AEC19 /* SnapKitPracticeViewController.swift in Sources */,
 				987E84FB28AB40DD000A1C22 /* ThirdViewController.swift in Sources */,
 				9879FBBB28AC71C800AAB273 /* CodeViewController.swift in Sources */,
 				987E84FF28AB415E000A1C22 /* WalkThroughViewController.swift in Sources */,
@@ -424,7 +428,7 @@
 				INFOPLIST_FILE = Week7Diary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = WalkThrough;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,7 +455,7 @@
 				INFOPLIST_FILE = Week7Diary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = WalkThrough;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
