@@ -28,6 +28,10 @@
 		987E84FB28AB40DD000A1C22 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84FA28AB40DD000A1C22 /* ThirdViewController.swift */; };
 		987E84FF28AB415E000A1C22 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */; };
 		98BA1E9628AD34D5005AEC19 /* SnapKitPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA1E9528AD34D5005AEC19 /* SnapKitPracticeViewController.swift */; };
+		98DC548528AF127300AE0D72 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC548428AF127300AE0D72 /* BaseViewController.swift */; };
+		98DC548828AF144800AE0D72 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC548728AF144800AE0D72 /* WriteViewController.swift */; };
+		98DC548A28AF16AB00AE0D72 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC548928AF16AB00AE0D72 /* BaseView.swift */; };
+		98DC548C28AF17C000AE0D72 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC548B28AF17C000AE0D72 /* WriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,10 @@
 		987E84FA28AB40DD000A1C22 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
 		98BA1E9528AD34D5005AEC19 /* SnapKitPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitPracticeViewController.swift; sourceTree = "<group>"; };
+		98DC548428AF127300AE0D72 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		98DC548728AF144800AE0D72 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		98DC548928AF16AB00AE0D72 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		98DC548B28AF17C000AE0D72 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,8 @@
 		987E84A428AB1FD4000A1C22 /* Week7Diary */ = {
 			isa = PBXGroup;
 			children = (
+				98DC548628AF142100AE0D72 /* Diary */,
+				98DC548128AF125A00AE0D72 /* Utility */,
 				98587D6B28ADDF1C00D03091 /* Extension */,
 				9879FBBC28AC71CE00AAB273 /* CodeBase */,
 				987E84F328AB3A42000A1C22 /* WalkThrough */,
@@ -180,6 +190,24 @@
 				987E84FE28AB415E000A1C22 /* WalkThroughViewController.swift */,
 			);
 			path = WalkThrough;
+			sourceTree = "<group>";
+		};
+		98DC548128AF125A00AE0D72 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				98DC548428AF127300AE0D72 /* BaseViewController.swift */,
+				98DC548928AF16AB00AE0D72 /* BaseView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		98DC548628AF142100AE0D72 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				98DC548728AF144800AE0D72 /* WriteViewController.swift */,
+				98DC548B28AF17C000AE0D72 /* WriteView.swift */,
+			);
+			path = Diary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +314,9 @@
 			files = (
 				98587D6F28ADDF4100D03091 /* UIViewController+Extension.swift in Sources */,
 				987E84AA28AB1FD4000A1C22 /* ViewController.swift in Sources */,
+				98DC548C28AF17C000AE0D72 /* WriteView.swift in Sources */,
 				987E84A628AB1FD4000A1C22 /* AppDelegate.swift in Sources */,
+				98DC548A28AF16AB00AE0D72 /* BaseView.swift in Sources */,
 				9879FBC628AC8C1A00AAB273 /* CodeSnap2ViewController.swift in Sources */,
 				98587D7328ADE62A00D03091 /* ProfileViewController.swift in Sources */,
 				987E84A828AB1FD4000A1C22 /* SceneDelegate.swift in Sources */,
@@ -294,9 +324,11 @@
 				9879FBC428AC823000AAB273 /* CodeSnapViewController.swift in Sources */,
 				98BA1E9628AD34D5005AEC19 /* SnapKitPracticeViewController.swift in Sources */,
 				987E84FB28AB40DD000A1C22 /* ThirdViewController.swift in Sources */,
+				98DC548528AF127300AE0D72 /* BaseViewController.swift in Sources */,
 				9879FBBB28AC71C800AAB273 /* CodeViewController.swift in Sources */,
 				987E84FF28AB415E000A1C22 /* WalkThroughViewController.swift in Sources */,
 				987E84F728AB3AB5000A1C22 /* FirstViewController.swift in Sources */,
+				98DC548828AF144800AE0D72 /* WriteViewController.swift in Sources */,
 				98587D7128ADE2B200D03091 /* SceneTransitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
